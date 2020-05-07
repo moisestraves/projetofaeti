@@ -1,0 +1,289 @@
+
+						/*Configuração do Menu Principal*/
+
+						@import url('https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300|Ubuntu&display=swap');
+						
+			
+
+						header {
+						    min-height: 50px;
+						    background-color: white;
+						    padding-top: 0px;
+						}
+						h1 img { max-width: 150px; }
+
+
+						#menutop ul{
+							display: inline-block:width:95%;
+							list-style:none;
+							text-decoration:none;
+							text-transform:  uppercase;
+							text-align:right;
+							background-color: #41a677 /*#38735d*/;
+							width: 100%;
+							padding: 0px 10px;
+							height: 35px; 
+							padding-top: 5px;
+							}
+						#menutop li{
+							display: inline;
+							list-style:none;
+							text-decoration:none;
+							text-align:center;
+							background-color: #41a677 ;
+							width: 100%;
+							padding-top: 10px 5px;
+
+
+							}
+
+							#menutop a{text-decoration: none; color:#ffffff;font-size:18px;text-align: center;padding-top: 0px;  }
+						/* FORMATAÇÃO DO MENU PRINCIPAL*/
+						nav {width: 100%; background: #ffffff; text-align: center;padding-top: 0px 0px;}
+
+						/* AO PASSAR O MOUSE MUDA A COR*/
+						nav a:hover, nav a:focus {
+						    color: white;
+						    background-color: #606060;
+						}
+
+						/* LOGO CENTRAL DO TOPO*/
+						nav h1{
+							text-align:left;
+							padding 0px; 0px;
+							
+						}
+
+
+						nav li{ text-decoration: none;color:black; padding: 0px; display: inline-block; background-color: white; border-radius:"6px";padding: 6px 10px;}
+
+						/* REMOÇÃO DOS PONTOS DO UL */
+						nav ul {text-decoration: none; 
+						list-style: none;color:black; 
+						text-transform:uppercase; 
+						display: inline-block;
+						padding-top: 0px 0px;
+						}
+
+						section img{
+
+							max-width: 100%;
+							position: center;
+							height:35%;
+							
+						}
+						body { 
+						    font-family: 'Open Sans', Verdana, sans-serif; 
+						    background-color: white;
+						}
+
+						#logo img{
+							 width: 10%;
+							 display: block; 
+						  
+						}
+						.conteiner {
+							display:flex;
+							margin: 10% ;
+							padding: 0px;
+							line-height: 0.1em;
+							font-family: katakana-iroha;
+							text-transform: uppercase;
+							text-align:center;
+							width: 80%;
+							flex-direction:row; /*DIRECIONAMENTO EM LINHA */
+							flex-wrap:nowrap; /*NÃO TEM QUEBRA DE LINHA*/
+							/*justify-content: center ; ALINHAMENTO DA CAIXA NO CENTRO DA PAGINA*/
+							
+							justify-content:space-between;/*SEPARANDO OS ITENS DA CAIXA*/
+							
+							
+						}
+						.conteiner img{
+							
+							padding: 0px;
+							max-width: 70%;
+							background-color: white;
+							
+						}
+						#barra{
+							
+							width: 100%;
+							max-height: 100%;
+						}
+
+						#localização{
+							padding-bottom: 0px;
+							margin-bottom: 0px;
+							background: #38735d;
+
+						}
+
+						#localização h2{
+						text-transform:  uppercase;
+						text-align: center;
+						color: white; 
+						text-shadow: black 1px 1px 2px;
+						padding-top: 20px;
+						font-family: Gill Sans, sans-serif;
+						font-size: 20px;
+
+
+						}
+
+						#localização p{
+						text-transform:  uppercase;
+						text-align: center;
+						color: white; 
+						text-shadow: black 1px 1px 2px;
+						font-family: Gill Sans, sans-serif;
+						font-size: 15px;
+
+
+
+
+						}
+
+						#localização img{
+						width: 2%;
+						align-items: center;
+
+
+
+						}
+
+						/*FORMATAÇÃO DO FOOTER GERAL DO FOOTER*/
+						footer{
+							position: absolute;
+							width: 100%;
+							background: #38735d;
+							color:white;
+							text-transform: uppercase;
+
+					/*padding: 150px;*/
+							
+						}
+						/*Formatação e fonte h2 FOOTER*/
+						footer h2{
+							font-size: 17px;
+							text-transform: uppercase;
+							
+					/*padding: 150px;*/
+							
+						}
+						/*Formatação e fonte h2 FOOTER*/
+						footer h3{
+							font-size: 15px;
+							text-transform: uppercase;
+							
+					/*padding: 150px;*/
+							
+						}
+						footer p{
+							font-size: 15px;
+							text-transform: uppercase;
+							font-family: American Typewriter, serif;
+							padding: 0px;
+							
+					/*padding: 150px;*/
+							
+						}
+
+						/*Formatação caixas do Footter*/
+						
+						#container{
+							display:flex;
+							margin: 1% ;
+							padding: 0px;
+							line-height: 10px;
+							font-family: myriadPro;
+							width: 100%;
+							flex-direction:row; /*DIRECIONAMENTO EM LINHA */
+							flex-wrap:nowrap; /*NÃO TEM QUEBRA DE LINHA*/
+							justify-content: center ; 
+							justify-content:space-between;/*SEPARANDO OS ITENS DA CAIXA*/
+							
+						}
+						
+						/* Formatação e alinhamento do Texto social*/
+						#container p {
+							font-family: monospace;
+							font-size: 15x;
+							text-align: left;
+							justify-content: center;
+							
+						}
+						#container strong {
+							font-family: monospace;
+							font-size: 15x;
+							text-align: center;
+							justify-content: center;
+							
+						}
+
+				
+
+				#container img{
+							max-width: 50%;
+							margin-right: 25px;
+							
+						}
+
+						#container a {
+							color:white;
+							}
+						#container li {
+							text-decoration: none;
+							list-style:none;
+							text-align: inline-flex;
+							display: block;
+							padding: 0px;
+						}
+
+
+						#container ul {
+							text-decoration: none;
+							list-style:none;
+							display: inline-flex;
+							text-align: left;
+							padding: 0px;
+
+						}
+						.rodape p{
+							position: relative;
+							font-family: arial;
+							font-size: 12px;
+							
+							color:white;
+							text-align: center;
+							padding-bottom: 0px;
+
+						}
+				/* FORMAÇÃO DAS PAGINAS DOS CURSOS*/
+
+				.conteudo{
+					margin-left: 15px;
+					padding: 2px;
+					background-color: #EEE9E9;
+					
+				}
+				.conteudo p{
+
+					padding: 2px;
+					margin: 2px;
+					font-size: 15px;
+					line-height: 1,5px;
+					/*font-family: Courier New, monospace;*/
+					text-align: left;
+					color:#000000;
+
+				} 
+				.descricaocurso li{
+					padding: 2px;
+					text-decoration: none;
+					list-style: none;
+					text-align: left;
+
+				}
+
+				

@@ -3,14 +3,14 @@
 
 						@import url('https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300|Ubuntu&display=swap');
 						
-			
+			 
 
 						header {
 						    min-height: 50px;
 						    background-color: white;
 						    padding-top: 0px;
 						}
-						h1 img { max-width: 150px; }
+						h1 img { max-width: 60%; }
 
 						#menutop{
 							font-size: 10px;
@@ -121,15 +121,11 @@
 						.conteiner img{
 							
 							padding: 0px;
-							max-width: 70%;
+							max-width: 100%;
 							background-color: white;
 							
 						}
-						#barra{
-							
-							width: 100%;
-							max-height: 100%;
-						}
+						
 
 						#localização{
 							padding-bottom: 0px;
@@ -219,7 +215,7 @@
 						#container{
 							display:flex;
 							margin: 1% ;
-							padding: 0px;
+							padding-top: 0px;
 							line-height: 10px;
 							font-family: myriadPro;
 							width: 100%;
@@ -249,7 +245,7 @@
 				
 
 				#container img{
-							max-width: 50%;
+							max-width: 100%;
 							margin-right: 25px;
 							
 						}
@@ -287,20 +283,20 @@
 				/* FORMAÇÃO DAS PAGINAS DOS CURSOS*/
 
 				.conteudo{
-					margin-left: 15px;
+					margin-left: 1px;
 					padding: 2px;
 					/*background-color: #EEE9E9;*/
 
 				}
 				.conteudo p{
 
-					padding: 2px;
-					margin: 2px;
+						padding: 2px;
+						
 					font-size: 15px;
-					line-height: 1,5px;
+					line-height: 15.0px;
 					/*font-family: Courier New, monospace;*/
 					text-align: left;
-					color:#000000;
+					color:black;
 
 				} 
 				.descricaocurso li{
@@ -415,3 +411,12 @@
 						display: inline-block;
 						padding-top: 0px 0px;
 				}
+                    
+                    
+                    .bloco{
+                        align-items: center;
+                        padding-left: 3px;
+                        padding-top: 3px;
+                    }
+                    
+                   

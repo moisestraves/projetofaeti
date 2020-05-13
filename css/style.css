@@ -12,20 +12,26 @@
 						}
 						h1 img { max-width: 150px; }
 
-
+						#menutop{
+							font-size: 10px;
+						}
 						#menutop ul{
-							display: inline-block:width:95%;
+							
+							display: inline-block;
+							width:95%;
 							list-style:none;
 							text-decoration:none;
 							text-transform:  uppercase;
 							text-align:right;
-							background-color: #41a677 /*#38735d*/;
+							background-color: #41a677 ;
 							width: 100%;
 							padding: 0px 10px;
 							height: 35px; 
-							padding-top: 5px;
+							padding-top: 2px;
+							font-size: 13px;
 							}
 						#menutop li{
+
 							display: inline;
 							list-style:none;
 							text-decoration:none;
@@ -33,13 +39,18 @@
 							background-color: #41a677 ;
 							width: 100%;
 							padding-top: 10px 5px;
+							font-size: 13px;
 
 
 							}
 
-							#menutop a{text-decoration: none; color:#ffffff;font-size:18px;text-align: center;padding-top: 0px;  }
+							#menutop a{text-decoration: none; color:#ffffff;font-size:18px;text-align: center;padding-top: 0px;
+  top: 0;
+  left: 0;  }
 						/* FORMATAÇÃO DO MENU PRINCIPAL*/
-						nav {width: 100%; background: #ffffff; text-align: center;padding-top: 0px 0px;}
+						nav {width: 100%; background: #ffffff; text-align: center;padding-top: 0px 0px;
+  top: 0;
+  left: 0;}
 
 						/* AO PASSAR O MOUSE MUDA A COR*/
 						nav a:hover, nav a:focus {
@@ -50,12 +61,19 @@
 						/* LOGO CENTRAL DO TOPO*/
 						nav h1{
 							text-align:left;
-							padding 0px; 0px;
+							padding:0px 0px;
 							
 						}
 
+						/*CONFIGURAÇÃO FO MENU PRINCIPAL*/
 
-						nav li{ text-decoration: none;color:black; padding: 0px; display: inline-block; background-color: white; border-radius:"6px";padding: 6px 10px;}
+						nav li{ text-decoration: none;
+							color:black; padding: 0px;
+							 display: inline-block;
+							  background-color: white; 
+							  border-radius:"6px";
+							  padding: 6px 10px;}
+							  font-size: 13px;
 
 						/* REMOÇÃO DOS PONTOS DO UL */
 						nav ul {text-decoration: none; 
@@ -63,6 +81,7 @@
 						text-transform:uppercase; 
 						display: inline-block;
 						padding-top: 0px 0px;
+						font-size: 13px;
 						}
 
 						section img{
@@ -159,31 +178,37 @@
 							background: #38735d;
 							color:white;
 							text-transform: uppercase;
+							font-family: Helvetica, sans-serif
+							font-size: 12px;
 
 					/*padding: 150px;*/
 							
 						}
 						/*Formatação e fonte h2 FOOTER*/
 						footer h2{
-							font-size: 17px;
+							font-size: 12px;
 							text-transform: uppercase;
+							font-family: Helvetica, sans-serif
 							
 					/*padding: 150px;*/
 							
 						}
 						/*Formatação e fonte h2 FOOTER*/
 						footer h3{
-							font-size: 15px;
+							font-size: 12px;
 							text-transform: uppercase;
+							font-family: Helvetica, sans-serif
+
 							
 					/*padding: 150px;*/
 							
 						}
 						footer p{
-							font-size: 15px;
+							font-size: 12px;
 							text-transform: uppercase;
-							font-family: American Typewriter, serif;
+							/*font-family: American Typewriter, serif;*/
 							padding: 0px;
+							font-family: Helvetica, sans-serif
 							
 					/*padding: 150px;*/
 							
@@ -251,8 +276,8 @@
 						}
 						.rodape p{
 							position: relative;
-							font-family: arial;
-							font-size: 12px;
+							font-family: Verdana, sans-serif;
+							font-size: 10px;
 							
 							color:white;
 							text-align: center;
@@ -264,8 +289,8 @@
 				.conteudo{
 					margin-left: 15px;
 					padding: 2px;
-					background-color: #EEE9E9;
-					
+					/*background-color: #EEE9E9;*/
+
 				}
 				.conteudo p{
 
@@ -286,4 +311,107 @@
 
 				}
 
-				
+				@media screen and (max-width: 600px ; min-width: 250px){
+
+					footer p {
+							
+					font-size: 10px;
+							text-transform: uppercase;
+							font-family: monospace;
+							font-style: normal;
+							padding: 0px;
+							width: 70%;
+					
+							
+						}
+
+						footer img{
+								display: flex;
+								width: 20%;
+							}
+
+							footer h2{
+								display: flex;
+								font-size: 10px;
+								
+							}
+
+							footer li{
+								display: flex;
+								font-size: 10px;
+							}
+
+							footer ul{
+								display: flex;
+								font-size: 10px;
+							}
+
+							footer .rodape{
+
+								font-size: 6px;
+							text-transform: uppercase;
+							font-family: calibri;
+							font-style: normal;
+							padding: 0px;
+							width: 70%;
+							}
+
+
+						#menutop ul{
+							
+							display: inline-block;
+							width:10%;
+							list-style:none;
+							text-decoration:none;
+							text-transform:  uppercase;
+							text-align:right;
+							background-color: #41a677 ;
+							width: 100%;
+							padding: 0px 10px;
+							height: 35px; 
+							padding-top: 5px;
+							}
+						#menutop li{
+
+							display: inline;
+							list-style:none;
+							text-decoration:none;
+							text-align:center;
+							background-color: #41a677 ;
+							width: 100%;
+							padding-top: 10px 5px;
+
+
+							}
+
+							#menutop a{text-decoration: none; color:#ffffff;font-size:18px;text-align: center;padding-top: 0px;
+  top: 0;
+  left: 0;  }
+						/* FORMATAÇÃO DO MENU PRINCIPAL*/
+						nav {width: 100%; background: #ffffff; text-align: center;padding-top: 0px 0px;
+  top: 0;
+  left: 0;}
+
+						/* AO PASSAR O MOUSE MUDA A COR*/
+						nav a:hover, nav a:focus {
+						    color: white;
+						    background-color: #606060;
+						}
+
+						/* LOGO CENTRAL DO TOPO*/
+						nav h1{
+							text-align:left;
+							padding 0px; 0px;
+							
+						}
+
+
+						nav li{ text-decoration: none;color:black; padding: 0px; display: inline-block; background-color: white; border-radius:"6px";padding: 6px 10px;}
+
+						/* REMOÇÃO DOS PONTOS DO UL */
+						nav ul {text-decoration: none; 
+						list-style: none;color:black; 
+						text-transform:uppercase; 
+						display: inline-block;
+						padding-top: 0px 0px;
+				}
